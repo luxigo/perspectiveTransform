@@ -43,7 +43,7 @@
  * @param H     homography matrix
 */
 
-void perspectiveTransformImage(CImg<unsigned char> *src,ptPoint *P,CImg<unsigned char> *dst,ptPoint *map,double *H) {
+void perspectiveTransformImage(CImg<unsigned char> *src,CImg<unsigned char> *dst,ptPoint *map,double *H) {
 
 	double x;
 	double y;
